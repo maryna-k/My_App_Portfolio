@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#eceff1"
     tools:context="com.example.android.myappportfolio.MainActivity">
 
     <LinearLayout
@@ -24,51 +25,34 @@
 
         <Button
             android:id="@+id/app1"
-            android:layout_width="250dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"
+            style="@style/button"
             android:text="Popular Movies"
-            android:layout_gravity="center_vertical"/>
+            />
 
         <Button
             android:id="@+id/app2"
-            android:layout_width="250dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"
-            android:text="Stock Hawk"
-            android:layout_gravity="center_vertical"/>
+            style="@style/button"
+            android:text="Stock Hawk"/>
 
         <Button
             android:id="@+id/app3"
-            android:layout_width="250dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"
-            android:text="Build it bigger"
-            android:layout_gravity="center_vertical"/>
+            style="@style/button"
+            android:text="Build it bigger"/>
 
         <Button
             android:id="@+id/app4"
-            android:layout_width="250dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"
-            android:text="Make your app material"
-            android:layout_gravity="center_vertical"/>
+            style="@style/button"
+            android:text="Make your app material"/>
 
         <Button
             android:id="@+id/app5"
-            android:layout_width="250dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"
-            android:text="Go Ubiquitous"
-            android:layout_gravity="center_vertical"/>
+            style="@style/button"
+            android:text="Go Ubiquitous"/>
 
         <Button
             android:id="@+id/app6"
-            android:layout_width="250dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"
-            android:text="Capstone"
-            android:layout_gravity="center_vertical"/>
+            style="@style/button"
+            android:text="Capstone"/>
 
     </LinearLayout>
 
